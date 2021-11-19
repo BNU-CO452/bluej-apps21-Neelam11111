@@ -4,6 +4,7 @@ import java.util.ArrayList;
  * that enrolled students may want to complete
  *
  * @author Derek Peacock and Nicholas Day
+ * Neelam
  * @version 0.1 11/Sep/2020
  */
 public class Course
