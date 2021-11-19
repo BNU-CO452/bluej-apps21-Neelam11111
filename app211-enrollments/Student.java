@@ -1,61 +1,33 @@
+
 /**
- * The Student class contains essential information that identifies 
- * a student at BNU.  The class also contains information 
- * concerning the course the student is currently enrolled on
- * 
- * @author Michael Kölling and David Barnes
- * @modified by Derek Peacock and Nicholas Day
- * @version 2021:08:15
+ * Write a description of class Student here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
  */
 public class Student
 {
-    // A unique 8 digit BNU identifier
-    private int id;
-    // the student's full name
-    private String name;
-    // The course the student is enrolled on
-    private Course course;
-    
+    // instance variables - replace the example below with your own
+    private int x;
+
     /**
-     * Create a new student with a given name and ID number.
+     * Constructor for objects of class Student
      */
-    public Student(String name, int id)
+    public Student()
     {
-        this.name = name;
-        this.id = id;
+        // initialise instance variables
+        x = 0;
     }
 
     /**
-     * Return the full name of this student.
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
      */
-    public String getName()
+    public int sampleMethod(int y)
     {
-        return name;
-    }
-
-     /**
-     * Return the student ID of this student.
-     */
-    public int getID()
-    {
-        return id;
-    }
-
-    public void enrol(Course course)
-    {
-        this.course = course;
-    }
-    
-    /**
-     * Print the student's name and ID number to the output terminal.
-     */
-    public void print()
-    {
-        System.out.println(" Student ID: " + id + " Name: " + name);
-    }
-    
-    public void printCourse()
-    {
-        course.print();
+        // put your code here
+        return x + y;
     }
 }
