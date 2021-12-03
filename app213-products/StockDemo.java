@@ -23,6 +23,7 @@ public class StockDemo
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
         
+        
         stock.add(new Product(101, "Samsung Galaxy S20"));
         stock.add(new Product(102, "Apple iPhone 12"));
         stock.add(new Product(103, "Google Pixel 4A"));
