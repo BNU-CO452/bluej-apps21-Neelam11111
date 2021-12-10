@@ -1,0 +1,98 @@
+ 
+ Neelam's Stock List
+ ====================
+
+ ID 111: Apple stock level: 129
+ ID 112: AplleIpad stock level: 0
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Samsung Galaxy S20 Ultra stock level: 0
+ ID 105: Apple iPhone 13 Pro stock level: 0
+ ID 106: Google Pixel 6A stock level: 0
+ ID 107: Samsung Galaxy A20 stock level: 0
+ ID 108: Apple iPhone mini stock level: 0
+ ID 109: Google Pixel 5A stock level: 0
+ ID 110: Samsung Galaxy Tab stock level: 0
+
+Product100Not found
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+
+ Neelam's Stock List
+ ====================
+
+ ID 111: Apple stock level: 129
+ ID 112: AplleIpad stock level: 0
+ ID 101: Samsung Galaxy S20 stock level: 29
+ ID 102: Apple iPhone 12 stock level: 15
+ ID 103: Google Pixel 4A stock level: 16
+ ID 104: Samsung Galaxy S20 Ultra stock level: 0
+ ID 105: Apple iPhone 13 Pro stock level: 11
+ ID 106: Google Pixel 6A stock level: 22
+ ID 107: Samsung Galaxy A20 stock level: 8
+ ID 108: Apple iPhone mini stock level: 36
+ ID 109: Google Pixel 5A stock level: 10
+ ID 110: Samsung Galaxy Tab stock level: 7
+
+Product100Not found
+Selling Quantitites of Stock
+
+All stock is sold !!
+Selling29101
+Selling Quantitites of Stock
+
+Selling10102
+Selling Quantitites of Stock
+
+All stock is sold !!
+Selling16103
+Selling Quantitites of Stock
+
+Selling none of104
+Selling Quantitites of Stock
+
+All stock is sold !!
+Selling11105
+Selling Quantitites of Stock
+
+All stock is sold !!
+Selling22106
+Selling Quantitites of Stock
+
+All stock is sold !!
+Selling8107
+Selling Quantitites of Stock
+
+Selling23108
+Selling Quantitites of Stock
+
+Selling3109
+Selling Quantitites of Stock
+
+Selling6110
+
+ Neelam's Stock List
+ ====================
+
+ ID 111: Apple stock level: 129
+ ID 112: AplleIpad stock level: 0
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 5
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Samsung Galaxy S20 Ultra stock level: 0
+ ID 105: Apple iPhone 13 Pro stock level: 0
+ ID 106: Google Pixel 6A stock level: 0
+ ID 107: Samsung Galaxy A20 stock level: 0
+ ID 108: Apple iPhone mini stock level: 13
+ ID 109: Google Pixel 5A stock level: 7
+ ID 110: Samsung Galaxy Tab stock level: 1
+
