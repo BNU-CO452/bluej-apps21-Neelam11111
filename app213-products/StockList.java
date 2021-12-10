@@ -4,8 +4,8 @@ import java.util.ArrayList;
  * Manage the stock in a business.
  * The stock is described by zero or more Products.
  * 
- * @author (Neelam) 
- * @version (26/11/2021)
+ * @author (Neelam Kaur) 
+ * @version 1 (10/10/2021)
  */
 public class StockList
 {
@@ -14,7 +14,7 @@ public class StockList
 
     /**
      * Initialise the stock manager.
-     */
+     */ 
     public StockList()
     {
         stock = new ArrayList<Product>();
@@ -46,6 +46,16 @@ public class StockList
      */
     public void buyProduct(int productID, int amount)
     {
+        Product product = findProduct(productID);
+        
+        if (product == null)
+        {
+            
+        }
+        else{
+            product.increaseQuantity(amount);
+            System.out.println("NOT FOUND");
+        }
     }
     
     /**
@@ -54,16 +64,13 @@ public class StockList
      */
     public Product findProduct(int productID)
     {
-        for(Product product:stock)
+        for(Product product : stock)
         {
-            if(product.getID() == productID)
-            {
-                return product;
-                
-            }
+         if(product.getID() == productID)   
+         return product;
         }
-        
         return null;
+        
     }
     
     
@@ -72,28 +79,52 @@ public class StockList
      * Show the before and after status of the product.
      * @param id The ID of the product being sold.
      */
-    public void sellProduct(int productID)
+    public void sellProduct(int productID, int quantity)
     {
+        System.out.println("Selling Quantitites of Stock\n");
+        
         Product product = findProduct(productID);
+        int stockQuantity = product.getQuantity();
         
         if(product != null) 
         {
-            if(product.getQuantity() > 0)
+            if(stockQuantity > 0)
             {
-                product.decreaseQuantity(1);
+                if(stockQuantity > quantity)
+                {
+                    product.decreaseQuantity(quantity);
+                    System.out.println("Selling" + quantity + "" + product.getID());
                 
-                // printout message
+                }
+                else
+                {
+                    System.out.println("All stock is sold !!");
+                    System.out.println("Selling" + stockQuantity + "" + product.getID());
+                    product.decreaseQuantity(stockQuantity);
+                }
             }
             else
             {
-                // printout message
+                System.out.println("Selling none of" + product.getID());
             }
         }
         else
         {
             // printout message
         }
-    }    
+    }
+    
+    public void search(String phrase)
+    {
+        if(phrase.contains("Samsung"))
+        {
+            System.out.println("List Of product starting With Samsung");
+        }
+        else
+        {
+            
+        }
+    }
 
     
     /**
@@ -142,7 +173,7 @@ public class StockList
     public void printHeading()
     {
         System.out.println();
-        System.out.println(" Peacock's Stock List");
+        System.out.println(" Neelam's Stock List");
         System.out.println(" ====================");
         System.out.println();
     }
